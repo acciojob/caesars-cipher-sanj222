@@ -39,7 +39,7 @@ function rot13(encodedStr) {
     decodedArr.push(decodedChar);
   }
 
-  return decodedArr;
+  return decodedArr.join("");
 }
 
  
